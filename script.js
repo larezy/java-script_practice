@@ -160,7 +160,7 @@ if(age == 18){
     console.log('You just became an adult :D (loose)')
 }
 
-prompt("What's your favourites number?");*/
+prompt("What's your favourites number?");
 
 //console.log('Pls, enter your name below');
 const fullName = prompt("What's your name?");
@@ -177,8 +177,100 @@ if(userAge === 18){
 }
 
 console.log(userAge);
+//Coding Challenge #3
+
+let dolphinScore = 96 + 108 +89;
+let dolphinAverage = dolphinScore/3;
+
+let koalasScore = 96 + 89 +108;
+let koalasAverage = koalasScore/3;
+
+console.log(`Dolphin_Average score is ${dolphinAverage} and Koalas_Average  Score is ${koalasAverage}`)
+
+//challenge 2
+if(dolphinAverage>koalasAverage){
+    console.log("Dolphins is the winner of the competition")
+}else if(dolphinAverage===koalasAverage){
+    console.log("The both team's drew")
+}else{
+    console.log("Koalas is the winneer of the competition")
+}
 
 
+// test bonus 1
+let dolphinScore = 97 + 122 +101;
+let dolphinAverage = dolphinScore/3;
 
+let koalasScore = 109 + 95 +123;
+let koalasAverage = koalasScore/3;
 
+let dolphins = dolphinAverage >=100;
+let koalas = koalasAverage >=100;
+
+console.log(`Dolphin_Average score is ${dolphinAverage} and Koalas_Average  Score is ${koalasAverage}`)
+
+//challenge 2
+if(dolphins && koalas ){ 
+if(dolphinAverage>koalasAverage){
+    console.log("Dolphins is the winner of the competition")
+}else if(dolphinAverage===koalasAverage){
+    console.log("The both team's drew")
+}else{
+    console.log("Koalas is the winneer of the competition")
+}
+
+}
+
+const day = 'monday';
+switch (day){
+    case 'monday':
+console.log ('Plan course structure');      
+console.log ('Go to coding meetup');break;
+    case 'tuesday':
+        console.log ('prepare theory videos');break;
+    case 'wednesday' :
+    case 'thursday' :
+        console.log('Write code examples');break;
+    case 'saturday':
+    case 'sunday':
+        console.log('enjoy the weekend');break;
+
+        default:
+            console.log('Not a valid day')
+
+}
+
+//if statement
+if(day === 'monday'){
+    console.log('monday');
+}else if (day === 'tuesday'){
+    console.log('prepare theory videos');
+}
+else if (day === 'wednesday' || day ==='thursday'){
+    console.log('Write code examples');
+}
+else if (day === 'friday'){
+    console.log('Record code'); 
+}
+
+else if (day === 'saturday' || day ==='sunday'){
+    console.log('Enjoy the weekend');
+    
+    else{
+        consolelog('Not a Valid day!')
+        
+    }
+}
+
+const age = 23;
+age >= 18 ? console.log('I like to drink wine 🍷') : console.log('I like to drink water 🥛')*/
+
+let billValue = 427;
+let totalValue;
+let tip;
+
+billValue >=50 && billValue<=300 ?console.log(`Your tips is 15% which is : ${(15 * billValue)/100}`) :console.log(`Your tips is 20% which is : ${(20 * billValue)/100}`);
+
+totalValue = (billValue + tip)
+console.log(`\nThe bill was ${billValue}, the tip was ${tip}, and the total value ${totalValue} `)
 
